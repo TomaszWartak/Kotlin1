@@ -3,10 +3,12 @@ package com.example.bmiapp.logic
 class BMICalcForCmKg() : BMICalc {
     override var height : Int = 0
     override var weight : Int = 0
-    private val  MIN_HEIGHT : Int = 148
-    private val MAX_HEIGHT = 250
-    private val MIN_WEIGHT = 40
-    private val MAX_WEIGHT = 300
+    override val MIN_HEIGHT = 148
+    override val MAX_HEIGHT = 250
+    override val MIN_WEIGHT = 40
+    override val MAX_WEIGHT = 300
+    override val heightUnit = "cm"
+    override val weightUnit = "kg"
 
     constructor(height : Int, weight : Int) : this() {
         this.height = height

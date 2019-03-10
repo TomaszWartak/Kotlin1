@@ -1,16 +1,19 @@
 <resources>
     <string name="app_name">BMIApp</string>
     <string name="height_label">Podaj wzrost:</string>
-    <string name="height_input_hint">[cm]</string>
-    <string name="height_too_small_message">Minimalny wzrost to 148cm</string>
-    <string name="height_too_big_message">Maksymalny wzrost to 250cm</string>
+    <string name="height_input_hint_eu">[cm]</string>
+    <string name="height_input_hint_us">[in]</string>
+    <string name="height_too_small_message">Minimalny wzrost to </string>
+    <string name="height_too_big_message">Maksymalny wzrost to </string>
     <string name="height_incorrect_value">Podaj wzrost</string>
     <string name="weight_label">Podaj wagę:</string>
-    <string name="weight_input_hint">[kg]</string>
-    <string name="weight_too_small_message">Minimalna waga to 40kg</string>
-    <string name="weight_too_big_message">Maksymalna waga to 300kg</string>
+    <string name="weight_input_hint_eu">[kg]</string>
+    <string name="weight_input_hint_us">[lb]</string>
+    <string name="weight_too_small_message">Minimalna waga to </string>
+    <string name="weight_too_big_message">Maksymalna waga to </string>
     <string name="weight_incorrect_value">Podaj wagę</string>
     <string name="count_bmi_button">Oblicz BMI</string>
     <string name="your_bmi_label">Twoje BMI wynosi:</string>
-
+    <string name="eu_measure_label">cm/kg</string>
+    <string name="us_measure_label">in/lb</string>
 </resources>
