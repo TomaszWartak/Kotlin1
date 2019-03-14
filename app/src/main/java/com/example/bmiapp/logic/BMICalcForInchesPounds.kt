@@ -17,20 +17,12 @@ class BMICalcForInchesPounds () : BMICalc {
         this.weight = weight
     }
 
-    override fun isHeightTooSmall() : Boolean {
-        return height<MIN_HEIGHT
-    }
+    override fun isHeightTooSmall() = height < MIN_HEIGHT
 
-    override fun isHeightTooBig(): Boolean {
-        return height > MAX_HEIGHT
-    }
+    override fun isHeightTooBig()= height > MAX_HEIGHT
 
-    override fun isWeightTooSmall(): Boolean {
-        return weight<MIN_WEIGHT
-    }
+    override fun isWeightTooSmall() = weight < MIN_WEIGHT
 
-    override fun isWeightTooBig(): Boolean {
-        return weight>MAX_WEIGHT
-    }
+    override fun isWeightTooBig() = weight > MAX_WEIGHT
 
 }
